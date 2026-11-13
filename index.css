@@ -88,11 +88,11 @@ h1, h2, h3{
     background-color: var(--caixa-dagua);
     color: var(--branco);
     flex: 2;
-}
 
-.cartaz-principal h1{
-    font-size: 132px;
-    max-width: 9ch;
+    h1{
+        font-size: 132px;
+        max-width: 9ch;
+    }
 }
 
 .cartaz-lateral{
@@ -103,12 +103,12 @@ h1, h2, h3{
     justify-content: space-between;
     gap: 32px;
     align-items: flex-start;
-}
 
-.cartaz-lateral p{
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1.3;
+    p{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.3;
+    }
 }
 
 .botao{
@@ -126,4 +126,65 @@ h1, h2, h3{
 
 .botao:hover{
     background: var(--caixa-dagua);
+}
+.secao{
+    margin: 96px;
+}
+
+.titulo-secao{
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card{
+    background: var(--branco);
+    border: 3px solid var(--tinta);
+    flex: 1 1 340px;
+
+    h3{
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+
+}
+
+.card .foto{
+    height: 170px;
+}
+
+.foto{
+    background: var(--concreto-escuro);
+}
+
+.foto-azul{
+    background: var(--caixa-dagua);
+}
+
+.foto-amarela{
+    background: var(--fita);
+}
+
+.foto-tinta{
+    background: var(--tinta);
+}
+
+.card-texto{
+    padding: 24px;
+}
+
+.card-info{
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 2px solid var(--concreto-escuro);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
 }
